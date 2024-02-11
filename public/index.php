@@ -6,4 +6,7 @@ use bng\System\Router;
 
 Router::dispatch();
 
-teste();
+$nomes = ['João', 'Ana', 'Pedro', 'Carlos'];
+
+
+printData($nomes);
