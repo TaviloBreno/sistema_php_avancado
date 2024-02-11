@@ -2,17 +2,14 @@
 
 namespace bng\Controllers;
 
+use bng\Models\Agents;
+
 class Main extends BaseController
 {
     public function index()
     {
-        $data = [
-            'nome' => "Tavilo",
-            'apelido' => 'Breno' 
-        ];
-
         $this->view('layouts/html_header');
-        $this->view('home', $data);
+        $this->view('home');
         $this->view('layouts/html_footer');
     }   
 }
