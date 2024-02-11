@@ -2,10 +2,10 @@
 
 namespace bng\Controllers;
 
-class Main
+class Main extends BaseController
 {
     public function index()
     {
-        echo 'Estou dentro do controlador Main - index';
+        $this->view();
     }   
 }
