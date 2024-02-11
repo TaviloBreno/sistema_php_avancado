@@ -1,0 +1,18 @@
+{
+    "name": "tavilobreno/modulo_13",
+    "autoload": {
+        "psr-4": {
+            "bng\\Controllers\\": ["app/controllers"]
+        },
+        "files": [
+            "app/config.php"
+        ]
+    },
+    "authors": [
+        {
+            "name": "Tavilo Breno",
+            "email": "agenciabweb@gmail.com"
+        }
+    ],
+    "require": {}
+}
